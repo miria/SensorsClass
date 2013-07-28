@@ -22,7 +22,7 @@ void loop() {
    Serial.println("Temperature in Celsius: "); 
    Serial.println(tempC); 
   
-   float tempF = (tempF * 9.0 / 5.0) + 32.0;
+   float tempF = (tempC * 9.0 / 5.0) + 32.0;
    Serial.print("Temperature in Fahrenheit: ");
    Serial.println(tempF); 
   

@@ -9,7 +9,7 @@ void loop() {
    int reading = analogRead(sensorPin);
   
    Serial.print("Pin reading: ");
-   Serial.print(reading); 
+   Serial.println(reading); 
 
    delay(1000);
 }
